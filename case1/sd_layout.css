@@ -116,7 +116,7 @@ section#left article {
 }
 
 section#left article h1 {
-   color: rgb(31, 31, 31);
+   /* color: rgb(31, 31, 31); */
    font-size: 34px;
    font-family: 'Courier New', courier, monospace;
    font-weight: bold;
