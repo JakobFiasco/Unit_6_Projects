@@ -28,7 +28,7 @@ body{
 
 /* Body Header Styles */
 body header{
-   color: rgba (51, 51, 51, 0.5)
+   color: rgba (51, 51, 51, 0.5);
 }
 
 
@@ -36,7 +36,7 @@ body header{
 aside{
    border: double 10px;
    border-radius: 30px;
-   color: rgba(92, 42, 8, 0.3)
+   color: rgba(92, 42, 8, 0.3);
 }
 aside h1{
    border-top-right-radius: 30px;
@@ -44,3 +44,30 @@ aside h1{
 }
 
 /* Cube Styles */
+div#cube{
+position: relative;
+margin: 180px auto 150px;
+width: 400px;
+height: 400px;
+perspective: 450px;
+}
+div.cube_face{
+   position: absolute;
+   width: 400px;
+   height: 400px;
+}
+div#cube_front{
+   transform: translateZ(-50px);
+}
+#cube_left{
+   transform: translateX(-200px) rotateY(90deg);
+}
+#cube_right{
+   transform: translateX(200px) rotateY(-90deg);
+}
+#cube_top{
+   transform: translateY(-200px) rotateX(-90deg);
+}
+#cube_bottom{
+   transform: translateY(200px) rotateX(90deg);
+}
