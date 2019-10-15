@@ -14,19 +14,33 @@
 */
 
 /* HTML Styles */
-
-
+html{
+   background-image: url(cf_back1.png);
+   background-position: fixed;
+   background-position-x: center;
+   background-position-y: center;
+}
 
 /* Body Styles */
-
-
+body{
+   color: rgba(255,255,255,0.3);
+}
 
 /* Body Header Styles */
-
+body header{
+   color: rgba (51, 51, 51, 0.5)
+}
 
 
 /* Aside Styles */
-
-
+aside{
+   border: double 10px;
+   border-radius: 30px;
+   color: rgba(92, 42, 8, 0.3)
+}
+aside h1{
+   border-top-right-radius: 30px;
+   border-top-right-radius: 30px;
+}
 
 /* Cube Styles */
