@@ -19,16 +19,17 @@ html{
    background-position: fixed;
    background-position-x: center;
    background-position-y: center;
+   background-size: 100%;
 }
 
 /* Body Styles */
 body{
-   color: rgba(255,255,255,0.3);
+   background-color: rgba(255,255,255,0.3);
 }
 
 /* Body Header Styles */
 body header{
-   color: rgba (51, 51, 51, 0.5);
+   color: rgba(51, 51, 51, 0.5);
 }
 
 
@@ -43,6 +44,20 @@ aside h1{
    border-top-right-radius: 30px;
 }
 
+section#left aside{
+   transform: rotateY(25deg)
+}
+section#right aside{
+   transform: rotateY(-25deg)
+}
+
+section#left{
+   perspective: 450px;
+}
+
+section#right{
+   perspective: 450px;
+}
 /* Cube Styles */
 div#cube{
 position: relative;
